@@ -124,15 +124,15 @@ Endpoint universal yang dapat menangani permintaan untuk semua penyedia yang did
 
 -   **Contoh Respons (streaming):**
     ```text
-data: {"id":"gemini-1694081529123","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{"content":"Pada "},"finish_reason":null}]}
-
-data: {"id":"gemini-1694081529124","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{"content":"zaman "},"finish_reason":null}]}
-
-data: {"id":"gemini-1694081529125","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{"content":"dahulu..."},"finish_reason":null}]}
-
-data: {"id":"gemini-1694081529126","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{},"finish_reason":"stop"}]}
-
-data: [DONE]
+    data: {"id":"gemini-1694081529123","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{"content":"Pada "},"finish_reason":null}]}
+    
+    data: {"id":"gemini-1694081529124","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{"content":"zaman "},"finish_reason":null}]}
+    
+    data: {"id":"gemini-1694081529125","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{"content":"dahulu..."},"finish_reason":null}]}
+    
+    data: {"id":"gemini-1694081529126","object":"chat.completion.chunk","created":1694081529,"model":"gemini-1.5-flash","choices":[{"index":0,"delta":{},"finish_reason":"stop"}]}
+    
+    data: [DONE]
     ```
 
 ### 2. `POST /openai-chat-completion`
